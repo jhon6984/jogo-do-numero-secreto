@@ -1,10 +1,3 @@
-//document.querySelector serve para fazer uma busca de onde vc quer
-//let titulo = document.querySelector('h1')
-//titulo.innerHTML = 'jogo do número secreto';
-//let paragrafo = document.querySelector('p');
-//paragrafo.innerHTML = 'escolha um número entre 1 e 10'
-
-// melhor escrito usando funçoes com parametros
 let listasDeNumerosSorteados = [];
 let numeroLimite = 10;
 let numeroSecreto = gerarNumeroAleatorio();
@@ -58,12 +51,6 @@ function gerarNumeroAleatorio() {
         return numeroEscolhido;
     }
 }
-
-            
-       
-    
-    
-
 
 function limparCampo() {
     chute = document.querySelector('input');
